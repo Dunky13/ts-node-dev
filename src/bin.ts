@@ -6,7 +6,7 @@ import minimist from 'minimist'
 const nodeArgs: string[] = []
 const unknown: string[] = []
 
-const devArgs = process.argv.slice(2, 100)
+const devArgs = process.argv.slice(2)
 
 const tsNodeFlags = {
   boolean: [
